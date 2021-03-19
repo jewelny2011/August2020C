@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-19T08:00:32.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10711041000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid email and password",
+        "description": "",
+        "id": "login;login-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ":I am at talentTEK home page",
+            "match": {
+              "location": "stepDefinitions.Login_Steps.i_am_at_talent_tek_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ":I enter valid email",
+            "match": {
+              "location": "stepDefinitions.Login_Steps.iEnterValidEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ":I enter valid password",
+            "match": {
+              "location": "stepDefinitions.Login_Steps.iEnterValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ":I click on login button",
+            "match": {
+              "location": "stepDefinitions.Login_Steps.iClickOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ":I will verify I successfully logged into my existing account",
+            "match": {
+              "location": "stepDefinitions.Login_Steps.iWillVerifyISuccessfullyLoggedIntoMyExistingAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": ":I close browser",
+            "match": {
+              "location": "stepDefinitions.Login_Steps.iCloseBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login/login.feature",
+    "tags": []
+  }
+]
